@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Siti Amilatus Sholeha</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">My Porto</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, Aku <span class="highlight">Ami</span>
+                </h1>
+                <h2 class="hero-subtitle"></h2>
+                <p class="hero-description" style="text-align:justify; text-justify:inter-word; max-width:600px; margin:0 auto 2rem auto;">
+                    Aku adalah mahasiswa Ilmu Komputer lulusan tahun 2025, dengan pengalaman kerja di berbagai bidang selama kuliah, seperti crew store dan kasir restoran. Terbiasa menghadapi pelanggan dan bekerja dalam
+                    tim, saya memiliki kemampuan komunikasi, adaptasi, dan etos kerja yang baik. Saya tertarik mengembangkan
+                    karier di bidang administrasi, customer service, dan data support, serta terus belajar untuk memperkuat
+                    keterampilan digital dan profesional saya.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <img src="images/profil.jpeg" alt="Profile" id="profile-img" style="cursor:pointer;">
+                    </div>
+                    <div class="social-links">
+                        <a href="amilatus1010@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                        <a href="http://linkedin.com/in/amilatussholeha" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="http://instagram.com/amilatussholeha/" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-filter" style="display: flex; gap: 1rem; justify-content: center; margin-bottom: 2rem;">
+                <button id="btn-kerja" class="exp-filter-btn active" type="button">Pengalaman Kerja</button>
+                <button id="btn-organisasi" class="exp-filter-btn" type="button">Pengalaman Organisasi</button>
+                <button id="btn-pendidikan" class="exp-filter-btn" type="button">Pendidikan</button>
+            </div>
+            <div class="experience-cards">
+                <div id="work-experience-list" class="work-experience-list" style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;">
+                    <div class="timeline-item"> <!-- Kasir -->
+                        <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+                        <div class="timeline-content">
+                            <h4>Kasir</h4>
+                            <span class="timeline-date">Februari 2025 - Juni 2025</span>
+                            <p>Mencapai Target Penjualan Bulanan selama 2 bulan.
+                                Mendapatkan Ulasan Positif dari Pelanggan terkait pelayanan yang ramah dan sigap.
+                                Meningkatkan Loyalitas Pelanggan melalui pendekatan yang personal dan promosi yang efektif</p>
+                            <div class="timeline-company">Prasmanan Sarisunda</div>
+                        </div>
+                    </div>
+                    <div class="timeline-item"> <!-- Crew Outlet -->
+                        <div class="timeline-icon"><i class="fas fa-laptop-code"></i></div>
+                        <div class="timeline-content">
+                            <h4>Crew Outlet</h4>
+                            <span class="timeline-date">November 2021 - November 2022</span>
+                            <p>Mencatat transaksi, mengelola uang tunai, dan membuat laporan harian.
+                                Terbiasa menggunakan alat kasir sederhana/manual.
+                                Menyiapkan bahan dan perlengkapan jualan setiap hari.</p>
+                            <div class="timeline-company">Kedai Capsin Ratu</div>
+                        </div>
+                    </div>
+                    <div class="timeline-item"> <!-- Crew Store -->
+                        <div class="timeline-icon"><i class="fas fa-network-wired"></i></div>
+                        <div class="timeline-content">
+                            <h4>Crew Store</h4>
+                            <span class="timeline-date">Juni 2020 - Desember 2020</span>
+                            <p>Mencapai target penjualan bulanan selama 2 bulan, Mendapatkan ulasan posiif dari pelanggan terkait pelayanan yang ramah dan sigap, Meningkatkan loyalitas pelanggan dengan memberikan diskon dan promo menarik melalui pendekatan yang personal dan promosi yang efektif</p>
+                            <div class="timeline-company">Green Parfum</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="org-experience-list" class="org-experience-list" style="display: none; flex-wrap: wrap; gap: 2rem; justify-content: center; margin-top: 2.5rem;">
+                    <div class="org-experience-item">
+                        <div class="org-icon"><i class="fas fa-users"></i></div>
+                        <div class="org-content">
+                            <h4>Humas</h4>
+                            <span class="org-date">Oktober 2018 - Agustus 2020</span>
+                            <p>Terlibat dalam penyusunan program kerja, kepanitiaan pelatihan, seminar, dan lomba.
+                                Membuat konten dan mengelola akun Instagram organisasi secara aktif.
+                            </p>
+                            <div class="org-place">Himpunan Mahasiswa Informaika</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="edu-experience-list" class="edu-experience-list" style="display: none; justify-content: center; margin-top: 2.5rem;">
+                    <div class="edu-timeline">
+                        <div class="edu-timeline-item">
+                            <div class="edu-timeline-icon"><i class="fas fa-university"></i></div>
+                            <div class="edu-timeline-content">
+                                <h4>Universitas Jember</h4>
+                                <span class="edu-timeline-date">2018 - 2025</span>
+                                <p>S1 Prodi Informatika.</p>
+                                <p>IPK 3.37/p>
+                                <div class="edu-timeline-company">Universitas Jember</div>
+                            </div>
+                        </div>
+                        <div class="edu-timeline-item">
+                            <div class="edu-timeline-icon"><i class="fas fa-user-graduate"></i></div>
+                            <div class="edu-timeline-content">
+                                <h4>SMA Negeri 5 Jember</h4>
+                                <span class="edu-timeline-date">2015 - 2018</span>
+                                <p>Jurusan IPA.</p>
+                                <div class="edu-timeline-company">SMA Negeri 5 Jember</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Technicall Skill</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon icon-html">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h4>HTML5</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon icon-php">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <h4>PHP</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon icon-python">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <h4>Python</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon icon-canva">
+                                <img src="images/canva.png" alt="Canva" style="width:32px;height:32px;object-fit:contain;" />
+                            </div>
+                            <h4>Canva</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon icon-pos">
+                                <i class="fas fa-cash-register"></i>
+                            </div>
+                            <h4>POS</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon icon-petty-cash">
+                                <i class="fas fa-money-bill-wave"></i>
+                            </div>
+                            <h4>Petty Cash</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon icon-excel">
+                                <i class="fas fa-file-excel"></i>
+                            </div>
+                            <h4>Excel</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon icon-word">
+                                <i class="fas fa-file-word"></i>
+                            </div>
+                            <h4>Word</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon icon-erp">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <h4>ERP</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="60"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Soft Skill</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon icon-komunikasi">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <h4>Komunikasi efektif dan pelayanan pelanggan</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon icon-waktu">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h4>Manajemen waktu dan tanggung jawab kerja</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon icon-administrasi">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <h4>Administrasi dan dokumentasi kegiatan</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon icon-promosi">
+                                <i class="fas fa-bullhorn"></i>
+                            </div>
+                            <h4>Penjualan dan promosi produk</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon icon-instagram">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <h4>Pengelolaan media sosial (Instagram)</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon icon-tim">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4>Kerja tim dan koordinasi acara</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="myproject">My Project</button>
+                <button class="filter-btn" data-filter="certificate">Certificate</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="myproject">
+                    <div class="project-image">
+                        <img src="images/spongebob.jpg" alt="Project 1">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Masak Masakan</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                        <div class="project-tags">
+                            <span class="tag">Kompor</span>
+                            <span class="tag">Wajan</span>
+                            <span class="tag">Pacul</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="myproject">
+                    <div class="project-image">
+                        <img src="images/spongebob.jpg" alt="Project 2">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Proyek Web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="certificate">
+                    <div class="project-image">
+                        <img src="images/spongebob.jpg" alt="Project 3">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sertifikat Pemrograman</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="certificate">
+                    <div class="project-image">
+                        <img src="images/spongebob.jpg" alt="Project 4">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sertifikat Memasak</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                        <div class="project-tags">
+                            <span class="tag">BNSP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle" style="text-align:center; font-size:1.2rem; color:#764ba2; margin-bottom:0.5rem;">Saya siap berkolaborasi dan terbuka untuk peluang baru!</p>
+            <p class="contact-desc" style="text-align:center; color:#555; max-width:500px; margin:0 auto 2.5rem auto; font-size:1rem;">Silakan hubungi saya melalui salah satu kontak di bawah ini, baik untuk kerja sama, konsultasi, atau sekadar menyapa. Saya akan merespon secepat mungkin.</p>
+            <div class="contact-content contact-icons-only" style="display:flex; flex-direction:column; align-items:center; justify-content:center;">
+                <div class="contact-icons-list">
+                    <a href="http://linkedin.com/in/amilatussholeha" class="contact-icon-link" target="_blank" rel="noopener" title="LinkedIn">
+                        <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                        <div class="contact-icon-label">LinkedIn</div>
+                    </a>
+                    <a href="amilatus1010@gmail.com" class="contact-icon-link" title="Email">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-icon-label">Email</div>
+                    </a>
+                    <a href="https://wa.me/+628990330180" class="contact-icon-link" target="_blank" rel="noopener" title="Phone">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-icon-label">Phone</div>
+                    </a>
+                    <a href="https://maps.google.com/?q=Jember,+Jawa+Timur" class="contact-icon-link" target="_blank" rel="noopener" title="Location">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-icon-label">Jember, Jawa Timur</div>
+                    </a>
+                    <a href="http://instagram.com/amilatussholeha/" class="contact-icon-link" target="_blank" rel="noopener" title="Instagram">
+                        <div class="contact-icon"><i class="fab fa-instagram"></i></div>
+                        <div class="contact-icon-label">Instagram</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:2rem 0 1rem 0;">
+                <div class="footer-text" style="color:#764ba2; font-size:1.1rem; font-weight:600; margin-bottom:0.3rem;">
+                    &copy; 2025 Amilatus Sholeha. All rights reserved.
+                </div>
+                <div class="footer-social">
+                    <a href="http://linkedin.com/in/amilatussholeha" class="social-link" target="_blank" rel="noopener" style="color:#667eea; font-size:1.5rem; margin:0 0.5rem;"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal untuk foto profil -->
+    <div id="profile-modal" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7); align-items:center; justify-content:center;">
+        <span id="close-profile-modal" style="position:absolute; top:40px; right:60px; font-size:2.5rem; color:#fff; cursor:pointer; z-index:10001;">&times;</span>
+        <img src="images/profil.jpeg" alt="Profile Full" style="max-width:90vw; max-height:85vh; border-radius:18px; box-shadow:0 8px 32px rgba(0,0,0,0.25); background:#fff; z-index:10000;">
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
